@@ -1,4 +1,4 @@
-update=Tue 23 Feb 2021 08:32:41 PM CST
+update=Tue 04 May 2021 07:51:42 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/jason/Desktop/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -240,20 +250,10 @@ dPairViaGap=0.25
 Name=Power
 Clearance=0.2
 TrackWidth=0.4572
-ViaDiameter=1.3716
-ViaDrill=0.6096
+ViaDiameter=0.8
+ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/jason/Desktop/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

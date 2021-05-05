@@ -376,24 +376,6 @@ F 3 "" H 8200 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1750 1200 1650
-Wire Wire Line
-	1200 1650 800  1650
-Wire Wire Line
-	800  1650 800  1700
-Connection ~ 1200 1650
-$Comp
-L power:GND #PWR0110
-U 1 1 60362CA3
-P 800 1700
-F 0 "#PWR0110" H 800 1450 50  0001 C CNN
-F 1 "GND" H 805 1527 50  0000 C CNN
-F 2 "" H 800 1700 50  0001 C CNN
-F 3 "" H 800 1700 50  0001 C CNN
-	1    800  1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1700 1750 1700 1650
 Wire Wire Line
 	1700 1650 2000 1650
