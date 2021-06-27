@@ -517,7 +517,7 @@ Text Label 1700 5250 0    50   ~ 0
 _BAS
 Text Label 1700 6150 0    50   ~ 0
 E7M
-Text Label 1700 2150 0    50   ~ 0
+Text Label 2550 2150 0    50   ~ 0
 _CFGIN
 Text Label 1200 2150 2    50   ~ 0
 _CFGOUT
@@ -967,4 +967,31 @@ Wire Wire Line
 Wire Wire Line
 	1200 6750 1450 6750
 Connection ~ 1450 6750
+$Comp
+L Device:R R1
+U 1 1 60BC61F6
+P 2250 2300
+F 0 "R1" H 2180 2254 50  0000 R CNN
+F 1 "10k" H 2180 2345 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2180 2300 50  0001 C CNN
+F 3 "~" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 2150 2250 2150
+Connection ~ 2250 2150
+Wire Wire Line
+	2250 2150 1700 2150
+$Comp
+L power:GND #PWR?
+U 1 1 60BDABC6
+P 2250 2450
+F 0 "#PWR?" H 2250 2200 50  0001 C CNN
+F 1 "GND" H 2255 2277 50  0000 C CNN
+F 2 "" H 2250 2450 50  0001 C CNN
+F 3 "" H 2250 2450 50  0001 C CNN
+	1    2250 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
