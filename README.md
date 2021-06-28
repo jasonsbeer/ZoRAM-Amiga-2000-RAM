@@ -32,5 +32,7 @@ Ferrite Bead (600 Ohms@100MHz)|1206|FB1|1|DigiKey|MH3261-601YCT-ND
 # Revision History
 
 V0.5 - Prototype Revision
+
 V0.6 - Added missing trace between U3 pin 1 and U4 pin 1
+
 V0.7 - Added ground planes
